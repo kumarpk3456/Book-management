@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "Title": "Harry Potter",
+      "Author": "JK Rowling",
+      "Genre": "Fiction",
+      "PublishedYear": "1997",
+      "Status": "Available",
+      "id": 9
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Fiction",
+      "PublishedYear": "1887",
+      "Status": "Available",
+      "id": 10
+    },
+    {
+      "Title": "Harry Potter",
+      "Author": "JK Rowling",
+      "Genre": "Historical fiction",
+      "PublishedYear": "2011",
+      "Status": "Available",
+      "id": 11
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Historical fiction",
+      "PublishedYear": "1887",
+      "Status": "Issued",
+      "id": 12
+    },
+    {
+      "Title": "Harry Potter",
+      "Author": "JK Rowling",
+      "Genre": "Historical fiction",
+      "PublishedYear": "2013",
+      "Status": "Available",
+      "id": 13
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Science Fiction",
+      "PublishedYear": "1887",
+      "Status": "Available",
+      "id": 14
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Crime and mystery",
+      "PublishedYear": "1887",
+      "Status": "Available",
+      "id": 15
+    },
+    {
+      "Title": "Harry Potter",
+      "Author": "JK Rowling",
+      "Genre": "Historical",
+      "PublishedYear": "2016",
+      "Status": "Issued",
+      "id": 16
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Historical",
+      "PublishedYear": "1887",
+      "Status": "Issued",
+      "id": 17
+    },
+    {
+      "Title": "Sherlock Homes 2",
+      "Author": "Arthur Conan Doyle",
+      "Genre": "Science Fiction",
+      "PublishedYear": "1887",
+      "Status": "Available",
+      "id": 19
+    }
+  ]
+}
