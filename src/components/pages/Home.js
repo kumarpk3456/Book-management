@@ -6,6 +6,7 @@ import { BiEdit } from "react-icons/bi";
 import { MdDeleteOutline, MdOutlinePreview } from "react-icons/md";
 import flasher from "@flasher/flasher";
 import Swal from "sweetalert2";
+import { ToastContainer, toast } from "react-toastify";
 
 const Home = () => {
   const [books, setBooks] = useState([]);
@@ -43,9 +44,9 @@ const Home = () => {
       if (result.isConfirmed) {
         let response = await axios.delete(`http://localhost:3003/books/${id}`);
         if (response.Successful == false) {
-          flasher.warning(response.Message);
+          toast.warning(response.Message);
         } else {
-          flasher.success("Deleted Successfully");
+          toast.success("Deleted Successfully");
           loadBooks();
         }
       }
@@ -220,6 +221,7 @@ const Home = () => {
           </section>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
